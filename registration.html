@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="registration.css">
+    <script src="registration.js"></script>
     <title>Registration Page</title>
 </head>
 <body>
@@ -11,7 +12,7 @@
         <div class="content">
                 <div class="Register">
                     <h2 style="color: blue;">REGISTRATION PAGE</h2>
-                    <form  id="form" onclick=""">
+                    <form  action="index.html" onsubmit="return validation(event)">
                         <label>Name:</label>
                         <br>
                         <input id="name" type="text" placeholder="Name">
