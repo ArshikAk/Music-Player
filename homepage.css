@@ -1,0 +1,65 @@
+body{
+    background-image: url("bg1.jpg");
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    font-size: larger;
+    margin-top: 20px;
+}
+
+.navbar button{
+    padding: 10px 20px;
+}
+
+.navbar img{
+    height: 50px;
+    width: 120px;
+}
+
+.left{
+    padding-left: 30px;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    left: 0;
+}
+
+.left p{
+    padding-left: 30px;
+}
+
+.right{
+    /* padding-right: 30px; */
+    position: absolute;
+    row-gap: 30px;
+    right: 0;
+}
+
+.right button{
+    margin-right: 20px;
+}
+
+.music{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 80%;
+    row-gap: 50px;
+    margin: 10vh;
+}
+
+.card{
+    padding: 30px;
+}
+
+h4{
+    color: white;
+}
+
+.card img{
+    height: 300px;
+    width: 300px;
+}

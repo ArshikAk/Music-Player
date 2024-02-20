@@ -10,16 +10,17 @@ body{
 }
 
 .Register{
-    background-color: gray;
+    background-color: rgb(80, 79, 79);
 	padding: 40px;
 	border-radius: 5px;
 	box-shadow: 10px 10px 7px #000;
     margin-top: 20vh;
     opacity: 0.6;
 	width: 45vh;
-    /* color: aliceblue; */
+    color: rgb(13, 231, 13); 
     justify-content: center;
     border-radius: 30px;
+    font-weight: bolder;
 }
 
 input{

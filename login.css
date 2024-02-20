@@ -10,15 +10,16 @@ body{
 }
 
 .Login{
-    background-color: gray;
+    background-color: rgb(80, 79, 79);
 	padding: 40px;
 	border-radius: 5px;
 	box-shadow: 10px 10px 7px #000;
     margin-top: 24vh;
     opacity: 0.6;
 	width: 42vh;
-    /* color: green; */
+    color: rgb(13, 231, 13);
     justify-content: center;
+    font-weight: bolder;
     border-radius: 30px;
 }
 
